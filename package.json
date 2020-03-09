@@ -1,0 +1,21 @@
+{
+  "name": "gpio-matrix-keypad",
+  "version": "1.0.1",
+  "description": "A simple library to accept input from a matrix keypad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "keypad",
+    "matrix",
+    "raspberry-pi",
+    "gpio",
+    "onoff"
+  ],
+  "author": "Brannon Vann",
+  "license": "MIT",
+  "dependencies": {
+    "onoff": "^5.0.1"
+  }
+}
