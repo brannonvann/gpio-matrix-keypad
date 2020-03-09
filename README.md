@@ -2,11 +2,11 @@
 
 This is a simple node package I developed after having trouble with some of the other packages available. I tested this with a 3x4 keypad and a raspberry pi. Please make sure that you row GPIO connections are either all pulldown or all pullup. If you use pullup connections you will need to set defaultState = 0 in the options.
 
-The default pullup/pulldown GPIO connections can be seen in Table 6-31 in the [BCM2835 ARM Peripherals](http://www.farnell.com/datasheets/1521578.pdf) documentation.
+The default pullup/pulldown GPIO connections are available in Table 6-31 in the [BCM2835 ARM Peripherals](http://www.farnell.com/datasheets/1521578.pdf) documentation.
 
 ## Install
 
-        npm install gpio-matrix-keypad --save
+    npm install gpio-matrix-keypad --save
 
 ## Usage
 
